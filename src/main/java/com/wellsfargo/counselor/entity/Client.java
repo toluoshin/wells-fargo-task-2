@@ -28,7 +28,7 @@ public class Client {
     @Column(nullable = false)
     private String email;
 
-    @Column(nullable = false)
+    @Relationship(nullable = false)
     private long advisorId;
 
     protected Client() {
