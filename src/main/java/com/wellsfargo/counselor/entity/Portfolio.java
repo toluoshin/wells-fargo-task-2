@@ -25,7 +25,7 @@ public class Portfolio {
     @Column(nullable = false)
     private double total;
 
-    @Column(nullable = false)
+    @Relationship(nullable = false)
     private long clientId;
 
     protected Portfolio() {
