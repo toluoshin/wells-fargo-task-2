@@ -31,7 +31,7 @@ public class Secur {
     @Column(nullable = false)
     private int purchaseDate;
 
-    @Column(nullable = false)
+    @Relationship(nullable = false)
     private long portfolioId;
 
     protected Secur() {
